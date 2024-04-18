@@ -1,5 +1,5 @@
 {
-    "name": "node-firebird-cp949",
+    "name": "@oz-k/node-firebird-cp949",
     "version": "1.1.8",
     "description": "Pure JavaScript and Asynchronous Firebird client for Node.js.",
     "keywords": [
@@ -8,6 +8,9 @@
         "rdbms",
         "sql"
     ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
     "homepage": "https://github.com/oz-k/node-firebird-cp949",
     "repository": {
         "type": "git",
