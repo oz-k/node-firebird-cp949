@@ -1,5 +1,5 @@
 {
-    "name": "node-firebird",
+    "name": "node-firebird-cp949",
     "version": "1.1.8",
     "description": "Pure JavaScript and Asynchronous Firebird client for Node.js.",
     "keywords": [
@@ -8,10 +8,10 @@
         "rdbms",
         "sql"
     ],
-    "homepage": "https://github.com/hgourvest/node-firebird",
+    "homepage": "https://github.com/oz-k/node-firebird-cp949",
     "repository": {
         "type": "git",
-        "url": "https://github.com/hgourvest/node-firebird"
+        "url": "https://github.com/oz-k/node-firebird-cp949"
     },
     "author": {
         "name": "Henri Gourvest",
@@ -29,6 +29,7 @@
     },
     "dependencies": {
         "big-integer": "^1.6.51",
+        "iconv-lite": "^0.6.3",
         "long": "^5.2.3"
     },
     "devDependencies": {
